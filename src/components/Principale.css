@@ -1,0 +1,124 @@
+body { 
+  margin: 0; 
+  padding: 0; 
+  height: 100%; 
+  width: 100%; 
+  font-family: Arial, sans-serif; 
+  background-color: #f9f9f9; 
+}
+
+.image1 {
+  background-image: url("/img/istockphoto-1335669510-1024x1024.jpg");
+  background-size: cover;
+  color: white;
+  height: 70vh;
+  margin-top: -10px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.image1 h1 {
+  font-size: 35px;
+  color: white;
+  margin: 0;
+}
+
+.image1 h2 {
+
+  margin-top: 30px;
+}
+
+  .titre {
+    text-align: center;
+    background-color: rgb(244, 162, 21);
+    margin: 10px 0;  
+    padding: 5px;
+    color: white;
+    width: 100%;  
+    box-sizing: border-box;  
+  }
+  
+  
+  .flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .button{
+    color:yellow;
+  }
+  
+
+  footer p   {
+
+      background-color: black;
+      color: white;
+      padding: 30px;
+      text-align: center;
+      margin: 0px;
+
+    }
+    
+    /* Boutton */ 
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+    50% {
+      transform: scale(1.1);
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  .button {
+    background-color: #ffae00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation: pulse 2s infinite; 
+    margin-left: 75%; 
+  }
+  
+  .button:hover {
+    background-color: #b38000;
+    transform: scale(1.05);
+  }
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+  
+
+ 
+  
+
+  
