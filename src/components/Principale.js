@@ -21,7 +21,7 @@ const Principale = () => {
       <main>
         <section className="image1">
           <h1>Bienvenue sur le site pour les Accessoires</h1>
-          <h2>Découvrez nos Accessoires : chargeurs, câbles, écouteurs</h2>
+          <h2>Découvrez nos Accessoires : chargeurs, câbles, écouteurs,Etuis et coques </h2>
         </section>
 
         <section className="titre">
